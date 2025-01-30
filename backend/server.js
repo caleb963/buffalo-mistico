@@ -8,13 +8,16 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // Connect to MongoDB
-mongoose.connect("mongodb://localhost:27017/buffalo-mistico", { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect("mongodb://localhost:27017/buffalo-mistico")
     .then(() => console.log("MongoDB connected"))
     .catch((err) => console.log(err));
 
 // Routes
 app.use("/api/products", require("./routes/products"));
 
-// Start server
-const PORT = 5000;
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+// Start server only if is in test mode  
+if (process.env.NODE_ENV !== "test") {
+  const server = app.listen(5000, () => console.log("Server is runnig on port 5000"));
+}
+
+module.exports = app;
