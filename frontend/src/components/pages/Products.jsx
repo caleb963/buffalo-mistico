@@ -2,6 +2,9 @@ import "../../styles/Products.css";
 import ProductCard from "../ProductCard";
 
 const products = {
+    inciensos: [
+        { name: "Mystic Moon", description: "Aroma de lavanda y vainilla.", price: 100, imageUrl:"./public/assets/bajali__mystic-moon.jpg"},
+    ],
     Clothing: [
     { name: "Hoodie", description: "Comfortable and stylish.", price: 500, imageUrl:""},
     { name: "Shirt", description: "Inspired by pre-Hispanic art.",price: 300, imageUrl:""},
@@ -29,8 +32,8 @@ const products = {
         {name: "tambor", description: "35cm", price: 800, imageUrl:''},
         {name: "tambor", description: "40cm", price: 1000, imageUrl:''},
         {name: "tambor", description: "45cm", price: 1200, imageUrl:''},
-    ]
-    
+    ],
+   
 
 
 };
