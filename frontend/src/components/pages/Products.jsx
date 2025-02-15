@@ -3,9 +3,27 @@ import ProductCard from "../ProductCard";
 
 const products = {
     inciensos: [
-        { name: "Mystic Moon", description: "Aroma de lavanda y vainilla.", price: 100, imageUrl:"./public/assets/bajali__mystic-moon.jpg"},
+        { name: "Mystic Moon", description: "Aroma de lavanda y vainilla.", price: 100, imageUrl:"/assets/bajali__mystic-moon.png"},
+        { name: "oudh", description: "Aroma de madera de oudh.", price: 150, imageUrl:"/assets/balaji__oudh.png"},
+        { name: "WoodSpice", description: "Aroma de madera y especias.", price: 120, imageUrl:"/assets/Nandita__woodspice.png"},
+        { name: "Padmini", description: "Aroma de sándalo.", price: 80, imageUrl:"/assets/Padmini.png"},
+        { name: "Maharani Dream", description:"", price: 100, imageUrl:"/assets/talesOfIndia__maharani-Dream.png"},
+        { name: "Mystic Temple", description:"", price: 100, imageUrl:"/assets/talesOfIndia__mystic-temple.png"},
+        { name: "Dragon Blodd", description:"", price: 100, imageUrl:"/assets/satya__dragonBlood.png"},
+        { name: "NagChampa", description: "", price: 100, imageUrl: "/assets/satya"},
+        { name: "Palo Santo", description:"", price: 100, imageUrl:"/assets/satya__paloSanto.png"},
+        { name: "Patchouli", description:"", price: 100, imageUrl:"/assets/satya__patchouli.png"},
+        { name: "Sandalwood", description:"", price: 100, imageUrl:"/assets/satya__sandalwood.png"},
+        { name: "cedarwood", description:"", price: 100, imageUrl:"/assets/morningStar__cedarwood.png"},
+        { name: "Frankincense", description:"", price: 100, imageUrl:"/assets/morningStar__frankincense.png"},
+        { name: "greenTea", description: "", price: 100, imageUrl:"/assets/morningStar__greenTea.png"},
+        { name: "jasmine", description:"", price: 100, imageUrl:"/assets/morningStar__jasmine.png"},
+        { name: "Rose", description:"", price: 100, imageUrl:"/assets/morningStar__rose.png"},
+        { name: "Sandalwood", description:"", price: 100, imageUrl:"/assets/morningStar__sandalwood.png"},
+        { name: "vainilla", description:"", price: 100, imageUrl:"/assets/morningStar__vainilla.png"},
+        { name: "Musk", description:"", price: 100, imageUrl:"/assets/morningStar__musk.png"},
     ],
-    Clothing: [
+    clothing: [
     { name: "Hoodie", description: "Comfortable and stylish.", price: 500, imageUrl:""},
     { name: "Shirt", description: "Inspired by pre-Hispanic art.",price: 300, imageUrl:""},
     { name: "Cap", description: "Unique and fashionable.", price: 350, imageUrl:""},
@@ -18,7 +36,7 @@ const products = {
         { name: "cartera para hombre", description: "cartera con bordado", price: 500, imageUrl:''},
         { name: "cartera para mujer", description: "cartera con bordado", price: 500, imageUrl:''}
     ],
-    instrumets: [
+    instruments: [
         { name: "palo de lluvia", description: "20cm", price: 300, imageUrl:''},
         { name: "palo de lluvia", description: "30cm", price: 400, imageUrl:''},
         {name: "palo de lluvia", description: "40cm", price: 500, imageUrl:''},
