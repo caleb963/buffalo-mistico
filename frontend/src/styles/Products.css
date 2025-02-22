@@ -9,6 +9,25 @@
     color: #333;
 }
 
+.products__tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom:  1rem;
+}
+
+.products__tab {
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    border: none;
+    background-color: #f4f4f4;
+    cursor: pointer;
+}
+
+.products__tab.active {
+    background-color: #333;
+    color: #fff;
+}
+
 .products__grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));

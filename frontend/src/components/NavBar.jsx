@@ -16,7 +16,7 @@ function NavBar() {
                 <Link to="/products">Products</Link>
             </li>
             <li className="navbar__item">
-                <Link className="navbar__link" to="/about-us">About US</Link>
+                <Link className="navbar__link" to="/about-us">Nosotros</Link>
             </li>
          </ul>
         </nav>
