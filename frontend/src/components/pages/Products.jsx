@@ -25,6 +25,7 @@ const products = {
         { name: "vainilla", description:"aroma dulce ,sin varilla de bambu esto permite que el aroma no se mezcle con el aroma de madera quemada", price: 100, imageUrl:"/assets/morningStar__vainilla.png"},
         { name: "Musk", description:"aroma a resina de almizcle, sin varilla de bambu esto permite que el aroma no se mezcle con el aroma de madera quemada", price: 100, imageUrl:"/assets/morningStart__musk.png"},
     ],
+
     Ropa: [
     { name: "Hoodie", description: "Comfortable and stylish.", price: 500, imageUrl:""},
     { name: "Shirt", description: "Inspired by pre-Hispanic art.",price: 300, imageUrl:""},
@@ -53,13 +54,27 @@ const products = {
         {name: "tambor", description: "40cm", price: 1000, imageUrl:''},
         {name: "tambor", description: "45cm", price: 1200, imageUrl:''},
     ],
-   
-
+   Accesorios: [
+     {name:"Separador de libros", description:"Separador de libros con disenos prehispanicos tejidos", price: 100, imageUrl:'/assets/Separador1.png'},
+     {name:"Separador de libros", description:"Separador de libros con disenos prehispanicos tejidos", price: 100, imageUrl:'/assets/Separador2.png'},
+     {name:"Separador de libros", description:"Separador de libros con disenos prehispanicos tejidos", price: 100, imageUrl:'/assets/Separador3.png'},
+     {name:"Separador de libros", description:"Separador de libros con disenos prehispanicos tejidos", price: 100, imageUrl:'/assets/Separador4.png'},
+     {name:"Separador de libros", description:"Separador de libros con disenos prehispanicos tejidos", price: 100, imageUrl:'/assets/Separador5.png'},
+     {name:"Separador de libros", description:"Separador de libros con disenos prehispanicos tejidos", price: 100, imageUrl:'/assets/Separador6.png'},
+     {name:"Separador de libros", description:"Separador de libros con disenos prehispanicos tejidos", price: 100, imageUrl:'/assets/Separador7.png'},
+     {name:"Separador de libros", description:"Separador de libros con disenos prehispanicos tejidos", price: 100, imageUrl:'/assets/Separador8.png'},
+     {name:"Separador de libros", description:"Separador de libros con disenos prehispanicos tejidos", price: 100, imageUrl:'/assets/Separador9.png'},
+     {name:"Separador de libros", description:"Separador de libros con disenos prehispanicos tejidos", price: 100, imageUrl:'/assets/Separador10.png'},
+     {name:"Separador de libros", description:"Separador de libros con disenos prehispanicos tejidos", price: 100, imageUrl:'/assets/Separador11.png'},
+     {name:"Separador de libros", description:"Separador de libros con disenos prehispanicos tejidos", price: 100, imageUrl:'/assets/Separador12.png'},
+     {name:"Separador de libros", description:"Separador de libros con disenos prehispanicos tejidos", price: 100, imageUrl:'/assets/Separador13.png'},
+   ],
 
 };
 
 function Products() {
     const [activeCategory, setActiveCategory] = useState("inciensos");
+
 
     return (
         <section className="products">

@@ -8,7 +8,7 @@ function NavBar() {
     return (
         <nav className="navbar"> 
          <div className="navbar__logo">
-            <img src="/assets/bufalo_mistico-original.jpg" alt="Buffalo Mistico Logo" style={{ height:"80px"}} />
+            <img src="/assets/geo-bison.png" alt="Buffalo Mistico Logo" style={{ height:"80px"}} />
          </div>
          <ul className="navbar__menu">
             <ul className="social-icons">
