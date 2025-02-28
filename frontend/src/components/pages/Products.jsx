@@ -33,12 +33,38 @@ const products = {
     { name: "camisas de mujer bordadas", description: "camisas bordadas a mano", price: 500, imageUrl:''},
     ],
     Bolsas: [
-        { name: "morral mediano", description: "tejido a mano", price: 750, imageUrl:''},
-        { name: "morral grande", description: "tejido a mano", price: 900, imageUrl:''},
-        { name: "sobre", description: "tejido a mano", price: 500, imageUrl:''},
-        { name: "cartera para hombre", description: "cartera con bordado", price: 500, imageUrl:''},
-        { name: "cartera para mujer", description: "cartera con bordado", price: 500, imageUrl:''}
+        { name: "Bolsa de piel para dama", description: "Bolsa de piel tipo sobre con aplicadio de tejido bordado en telar de cintura", price: 750, imageUrl:'/assets/Bolsa_piel_chiapas.png'},
+        { name: "Bolsa de piel para dama", description: "Bolsa de piel tipo sobre con aplicadio de tejido bordado en telar de cintura", price: 750, imageUrl:'/assets/Bolsa_piel_chiapas2.png'},
+        { name: "Bolsa de piel para dama", description: "Bolsa de piel tipo sobre con aplicadio de tejido bordado en telar de cintura", price: 750, imageUrl:'/assets/Bolsa_piel_chiapas3.png'},
+        { name: "Bolsa de piel para dama", description: "Bolsa de piel tipo sobre con aplicadio de tejido bordado en telar de cintura", price: 750, imageUrl:'/assets/Bolsa_piel_chiapas4.png'},
+        { name: "Bolsa de piel para dama", description: "Bolsa de piel tipo sobre con aplicadio de tejido bordado en telar de cintura", price: 750, imageUrl:'/assets/Bolsa_piel_chiapas5.png'},
+        { name: "Bolsa de piel para dama", description: "Bolsa de piel tipo sobre con aplicadio de tejido bordado en telar de cintura", price: 750, imageUrl:'/assets/Bolsa_piel_chiapas6.png'},
+        { name: "Bolsa de piel para dama", description: "Bolsa de piel tipo sobre con aplicadio de tejido bordado en telar de cintura", price: 750, imageUrl:'/assets/Bolsa_piel_chiapas7.png'},
+        { name: "Bolsa de piel para dama", description: "Bolsa de piel tipo sobre con aplicadio de tejido bordado en telar de cintura", price: 750, imageUrl:'/assets/Bolsa_piel_chiapas8.png'},
+     ],
+    Carteras : [
+        {name: "carterea para caballero", description: "cartera con aplicacion de bordado en telar de cintura", price: 350, imageUrl:'/assets/cartera_tejida1.png'},
+        {name: "carterea para caballero", description: "cartera con aplicacion de bordado en telar de cintura", price: 350, imageUrl:'/assets/cartera_tejida_2.png'},
+        {name: "carterea para caballero", description: "cartera con aplicacion de bordado en telar de cintura", price: 350, imageUrl:'/assets/cartera_tejida_3.png'},
+        {name: "carterea para caballero", description: "cartera con aplicacion de bordado en telar de cintura", price: 350, imageUrl:'/assets/cartera_tejida_4.png'},
+        {name: "carterea para caballero", description: "cartera con aplicacion de bordado en telar de cintura", price: 350, imageUrl:'/assets/cartera_tejida_5.png'},
+        {name: "carterea para caballero", description: "cartera con aplicacion de bordado en telar de cintura", price: 350, imageUrl:'/assets/cartera_tejida_6.png'},
+        {name: "carterea para caballero", description: "cartera con aplicacion de bordado en telar de cintura", price: 350, imageUrl:'/assets/cartera_tejida_7.png'},
+    ], 
+    cosmetiqueras : [
+        {name: "cosmetiquera", description: "cosmetiquera de lana bordada en telar de pedal y tenida con pigmentos vegetales naturales <br>20W X 10H", price: 480, imageUrl:'/assets/cosmetiquera1.png'},
+        {name: "cosmetiquera", description: "cosmetiquera de lana bordada en telar de pedal y tenida con pigmentos vegetales naturales 20W X 10H", price: 480, imageUrl:'/assets/cosmetiquera2.png'},
+        {name: "cosmetiquera", description: "cosmetiquera de lana bordada en telar de pedal y tenida con pigmentos vegetales naturales 20W X 10H", price: 480, imageUrl:'/assets/cosmetiquera3.png'},
+        {name: "cosmetiquera", description: "cosmetiquera de lana bordada en telar de pedal y tenida con pigmentos vegetales naturales 20W X 10H", price: 480, imageUrl:'/assets/cosmetiquera4.png'},
+        {name: "cosmetiquera", description: "cosmetiquera de lana bordada en telar de pedal y tenida con pigmentos vegetales naturales 20W X 10H", price: 480, imageUrl:'/assets/cosmetiquera5.png'},
+        {name: "cosmetiquera", description: "cosmetiquera de lana bordada en telar de pedal y tenida con pigmentos vegetales naturales 20W X 10H", price: 480, imageUrl:'/assets/cosmetiquera6.png'},
+        {name: "cosmetiquera", description: "cosmetiquera de lana bordada en telar de pedal y tenida con pigmentos vegetales naturales 20W X 10H", price: 480, imageUrl:'/assets/cosmetiquera7.png'},
+        {name: "cosmetiquera", description: "cosmetiquera de lana bordada en telar de pedal y tenida con pigmentos vegetales naturales 20W X 10H", price: 480, imageUrl:'/assets/cosmetiquera8.png'},
+        {name: "cosmetiquera", description: "cosmetiquera de lana bordada en telar de pedal y tenida con pigmentos vegetales naturales 20W X 10H", price: 480, imageUrl:'/assets/cosmetiquera9.png'},
+        {name: "cosmetiquera", description: "cosmetiquera de lana bordada en telar de pedal y tenida con pigmentos vegetales naturales 20W X 10H", price: 480, imageUrl:'/assets/cosmetiquera10.png'},
+     
     ],
+
     instrumentos: [
         { name: "palo de lluvia", description: "20cm", price: 300, imageUrl:''},
         { name: "palo de lluvia", description: "30cm", price: 400, imageUrl:''},
