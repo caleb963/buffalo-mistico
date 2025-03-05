@@ -4,7 +4,9 @@ Copy
 Edit
 # 🦬 Buffalo Místico  
 
-Buffalo Místico is an **interactive e-commerce platform** showcasing and selling products such as **hoodies, t-shirts, bags, caps, instruments, and pre-Hispanic art**. This project merges modern technology with a design inspired by pre-Hispanic cultural richness.  
+Is a web platform designed to offer an optimal user experience and efficiently adapt to business growth, specifically for a Mexican clothing and crafts store. The user interface is intuitive and consistent, facilitating navigation and enhancing user satisfaction. User-centered design principles have been implemented, ensuring the platform is accessible and easy to use for a broad audience.
+
+This website is a demonstration of my ability to lead projects that combine an excellent user experience with an architecture prepared for scalability and adaptability, including functionality for product shipping, increasing online presence, and driving sales through the e-commerce model.
 
 ## 🚀 Key Features  
 - **Interactive Design:** Unique visual experience with graphics inspired by pre-Hispanic art.  
